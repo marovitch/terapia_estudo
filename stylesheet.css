@@ -1,0 +1,357 @@
+
+
+.secao-top{
+
+	width:100%;
+	background:#f5f5f5;
+}
+
+.caixa-top-informacoes{
+
+	width:80%;
+	padding:1em 0 1em 0;
+	min-width:1100px;
+	margin:0 auto;
+	text-align:left;
+	background:#f5f5f5;
+
+}
+
+
+.img-localizacao{
+
+	width:10px;
+
+}
+
+ .img-email{
+
+ 	width:15px;
+ }
+
+
+.lista-top li {
+	display:inline;
+	padding:0px 10px 0 0 ;
+	position:flex;
+	font-size:14px;
+	color:#42474c;
+}
+
+.lista-top li:nth-child(1){
+
+	padding:0 55px 0 20px;
+}
+
+.lista-top li:nth-child(6){
+	color:#3d3272;
+	font-weight:600;
+}
+
+
+
+/*CSS PARA A NAV 2 - TELEFONE E BOTAO*/
+
+
+
+.secao-meio-telefone{
+	width:100%;
+	background:white;
+
+}
+
+.caixa-meio-telefone{
+	width:80%;
+	padding:1em 0 1em 0;
+	min-width:1100px;
+	margin:0 auto;
+	text-align: left;
+
+
+}
+
+.logo{
+	width:200px;
+	vertical-align: middle;
+	padding:0 200px 0 15px;
+}
+
+
+
+.lista-meio li {
+	display:inline;
+	font-size:20px;
+	position:flex;
+
+}
+
+
+.ligue{
+
+	font-size:30px;
+	font-weight: 300;
+	color:#00c0b0 ;
+	vertical-align: middle;
+
+}
+
+.telefone{
+
+	font-size:30px;
+	font-weight: 600;
+	color:#00c0b0 ;
+	vertical-align: middle;
+
+}
+
+.botao-consulta{
+
+	margin:0 20px 0 60px;
+	padding:20px 40px;
+	border-radius:5px;
+	border:none;
+	text-transform: uppercase;
+	background-color: #00c0b0;
+	color:white;
+	font-weight: 600;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.botao-consulta:hover{
+
+	background:#e1007a;
+	transition: 0.5s;
+}
+
+
+
+
+/* CSS PARA A NAV 3 - NAVEGAÇÃO*/
+
+
+.secao-menu-principal{
+	width:100%;
+	background:white;
+	border-top:1px solid #d6d6d6;
+}
+
+
+
+.caixa-menu-navegacao{
+	width:80%;
+	padding:1em 0 ;
+	min-width:1100px;
+	margin:0 auto;
+	text-align: left;
+
+}
+
+
+.lista-navegacao li {
+	padding:0px 15px 0 0;
+	position:flex;
+	display:inline;
+	font-size:1em;
+	color:#42474c;
+
+}
+
+
+.lista-navegacao li:nth-child(1){
+
+	padding: 0 15px 0 20px;
+}
+
+
+.lista-navegacao a{
+
+	text-decoration: none;
+	color:#42474c;
+	transition: 0.2s;
+}
+
+.lista-navegacao a:hover{
+	
+	color:#049c8f;
+	transition: 0.2s;
+}
+
+
+
+/* SEÇÃO PRINCIPAL DO SITE */
+
+.secao-principal{
+
+	width:100%;
+	background:url(imagens/casal-crop-layer.jpg);
+	background-size:cover;
+	position:relative;
+	min-width: 1100px;
+
+}
+
+.caixa-principal{
+
+	width:1100px;
+	margin:0 auto;
+	padding:10% 0  10% 0;
+	color:white;
+
+}
+
+.caixa-principal p:nth-child(1){
+
+	font-size:1em;
+	text-transform: uppercase;
+	font-weight:600;
+	padding: 0 0 0 1.5em;
+
+}
+
+.caixa-principal p:nth-child(2){
+
+	font-size:70px;
+	font-weight: 300;
+	padding: 0 0 0 0.3em;
+
+
+}
+
+.melhor-versao{
+
+	font-weight:800;
+}
+
+.botao-conheca, .botao-horarios {
+	margin: 30px 0 0 1.8em;
+	padding:20px 45px;
+	border-radius: 5px;
+	border:none;
+	font-size:0.8em;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight:bold;
+	transition: 0.5s;
+}
+
+.botao-conheca{
+
+	background:#00c8b7;
+	color:white;
+
+}
+
+.botao-horarios{
+
+	background:white;
+	color:#42474c;
+
+}
+
+.botao-conheca:hover {
+	background:#e1007a;,
+	transition: 0.5s;
+}
+
+.botao-horarios:hover{
+	background:#e1007a;,
+	transition: 0.5s;
+	color:white;
+}
+
+
+/* SEÇÃO PUBLICO ALVO */
+
+
+.secao-publico-alvo{
+	width:100%;
+
+}
+
+
+.lista-publico-alvo li{
+
+	display: inline-block;
+	text-align: left;
+	width: 33.33%;
+	vertical-align: top;
+	box-sizing: border-box;
+	padding:3em 5em;
+	font-size:16px;
+	line-height: 1.5em;
+	letter-spacing:0.05em;
+	float:left;
+	margin: 0 auto;
+}
+
+.lista-publico-alvo h2 {
+
+	font-size: 2.1em;
+	font-weight:600;
+	padding: 0 0 1.2em 0;
+	line-height: 1em;
+
+}
+
+.para-adultos, .para-criancas, .para-negocios{
+
+	min-height: 40%;
+}
+
+
+
+.para-adultos li{
+
+	background:#049c8f;
+	color:white;
+}
+
+.para-adultos p:nth-child(2){
+
+	padding:0 0 2em 0;
+
+}
+
+.para-criancas li{
+
+	background:#c4006a;
+	color:white;
+}
+
+.para-criancas p:nth-child(2){
+	padding:0 0 2em 0;
+}
+	
+
+.para-negocios li{
+	background:#f5f5f5;
+	color:#42474c;
+}
+
+.para-negocios p:nth-child(2){
+	padding:0 0 2em 0;
+
+
+}
+
+.paragrafo-lista-1, .paragrafo-lista-2, .paragrafo-lista-3{
+
+	padding:0.3em 0;
+	text-transform: uppercase;
+	font-weight: 600;
+
+}
+
+.paragrafo-lista-3{
+
+	color:#949494
+}
+
+.paragrafo-lista-2{
+
+	color:#c89ab3;
+
+
+}
+
